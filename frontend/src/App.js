@@ -31,7 +31,7 @@ function App() {
             <p key={index}>{payload.message}:<span>id:{payload.userName}</span></p>
           )
         })}
-        <form onSubmit={sendChat}>
+        <form onSubmit={sendChat}> 
           <input
             type="text"
             name="chat"
